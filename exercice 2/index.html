@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>exo2</title>
+</head>
+<div>
+    <div class="row">
+        <div class="col-3">
+            <form method="post" action="traitement.php">
+                <label>Nom : </label><input type="text" name="nom" id="nom" placeholder="Ex : Pignon" size=30 />
+        </div>
+        <div class="col-3">
+            <form method="post" action="traitement.php">
+                <label for="post">Prénom : </label><input type="text" name="nom" id="nom" placeholder="Ex : François" size=30/ />
+        </div>
+        <div class="col-3">
+            <form method="post" action="traitement.php">
+                <label for="start">Date de naissance:</label><input type="date" id="start" name="trip-start" value="2020-06-18" min="1930-01-01" max="2020-12-31">
+        </div>
+        <div class="col-3">
+            <label>Civilité : </label>
+            <select name="Civilité">
+                <option></option>
+                <option>Madame</option>
+                <option>Monsieur</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<body>
+
+</body>
+
+</html>
